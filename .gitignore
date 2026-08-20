@@ -1,0 +1,8 @@
+.pio
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-*
+.vscode
+sdkconfig.old
+build/

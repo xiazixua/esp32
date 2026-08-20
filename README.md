@@ -1,10 +1,10 @@
-# xiazixua ESP32 Watch Gateway
+# Hoshino ESP32 Watch Gateway
 
 双项目 ESP32 固件：智能手表网络网关 + EvilAppleJuice BLE 广播工具。
 
 ## 功能概览
 
-### 项目1：手表网关模式 (xiazixua Watch Gateway)
+### 项目1：手表网关模式 (Hoshino Watch Gateway)
 
 将 ESP32 变成智能手表的网络网关，通过蓝牙经典 (SPP) 连接手表，通过 WiFi 连接家庭网络，使用 NAPT 让手表经由 ESP32 访问互联网。
 
@@ -40,8 +40,8 @@
 pip install platformio
 
 # 克隆仓库
-git clone https://github.com/yourname/xiazixua-ESP32-Watch-Gateway.git
-cd xiazixua-ESP32-Watch-Gateway
+git clone https://github.com/yourname/Hoshino-ESP32-Watch-Gateway.git
+cd Hoshino-ESP32-Watch-Gateway
 
 # 编译 (ESP-IDF + Arduino, 推荐)
 pio run -e upesy_wroom_lowmem_idf
@@ -122,7 +122,7 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 \
 ## 项目结构
 
 ```
-xiazixua-ESP32-Watch-Gateway/
+Hoshino-ESP32-Watch-Gateway/
 ├── platformio.ini                    # PlatformIO 配置
 ├── huge_app.csv                      # Flash 分区表
 ├── sdkconfig.upesy_wroom_lowmem_idf  # ESP-IDF 低内存 SDK 配置
