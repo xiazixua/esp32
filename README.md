@@ -1,4 +1,4 @@
-# Hoshino ESP32 Watch Gateway
+# xiazixua ESP32 Watch Gateway
 
 双项目 ESP32 固件：智能手表网络网关 + EvilAppleJuice BLE 广播工具。
 
@@ -38,10 +38,6 @@
 ```bash
 # 安装 PlatformIO Core
 pip install platformio
-
-# 克隆仓库
-git clone https://github.com/yourname/Hoshino-ESP32-Watch-Gateway.git
-cd Hoshino-ESP32-Watch-Gateway
 
 # 编译 (ESP-IDF + Arduino, 推荐)
 pio run -e upesy_wroom_lowmem_idf
